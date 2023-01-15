@@ -7,6 +7,7 @@ public class ejercicio1Ob{
         long long1=1287947632L;
         double double1=123.234;
         String nombre= Pepe();
+        boolean bool1= falso;
     }
     private static String Pepe() {
         return "Pepe";
@@ -17,5 +18,6 @@ public class ejercicio1Ob{
         System.out.println("Esto es un long: " + long.class);
         System.out.println("Esto es un double: " + double.class);
         System.out.println("Esto es un String con un nombre: "+Pepe());
+        System.out.println("Esto es un booleano: "+bool1);
     }
 }
